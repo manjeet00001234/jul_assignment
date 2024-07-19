@@ -1,0 +1,47 @@
+.header{
+    background-color: #34495e;
+}
+
+.heam {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  display: none;
+}
+
+.img_logo1{
+    width:25% ;
+}
+.img_logo{
+    width:50% ;
+}
+#link_div{
+    display: block;
+}
+
+.logo_div{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {
+    .heam{
+        display: block;
+    }
+    #link_div{
+        display: none !important;
+    }
+    .img_logo1{
+        width: 30%;
+    }
+    .img_logo{
+        width: 100%;
+    }
+    .logo_div{
+        width: 50%;
+    }
+
+}

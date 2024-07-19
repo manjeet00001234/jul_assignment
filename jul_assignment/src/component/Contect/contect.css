@@ -1,0 +1,17 @@
+.contect_main{
+    width: 50%;
+    margin:50px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width:450px) {
+    .contect_main{
+    width: 95%;
+    margin:20px auto;
+
+
+
+}
+}
